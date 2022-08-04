@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../resources/css/main.css"> <!--link to main css  -->
+    <link rel="stylesheet" href="../resources/bootstrap/css/bootstrap.min.css"> <!--link to bootstrap css  -->
+    <script src="../resources/js/JQuery/jquery-3.6.0.min.js"> </script><!--link to jquery  -->
+    <script src="../resources/bootstrap/js/bootstrap.min.js"></script> <!--bootstrap javascript link  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"> <!----cdn fontawesome icons-->
+  
+    
+    
+    <title>Home</title>
+
+
+
+</head>
+<body>
+
+    <header class="sticky-top">
+      <nav class="navigation">
+            <div class="btn-toggle">
+                <i class="bi bi-list" id="btn-menu"></i>
+            </div>
+            <ul class="menuList">
+                <a href="#" class="menuItem"> Home </a>
+                <a href="#" class="menuItem"> Lakes </a>
+                <a href="#" class="menuItem"> Rivers </a>
+                <a href="#" class="menuItem"> Waterfalls </a>
+                <a href="#" class="menuItem"> EntryFees </a>
+                <a href="#" class="menuItem"> Competitions </a>
+
+            </ul>
+
+      </nav>
+
+    </header>
+        
+    <main>
+        <!-- Banner -->
+        <div class="container-fluid-banner">
+
+            <div id="carouselExampleSlidesOnly" class="carousel carousel-fade carousel-custom slide" data-bs-ride="carousel">
+      
+              <div class="carousel-inner carousel-inner-custom m-0">
+      
+                <div class="carousel-item carousel-item-custom active">
+                  <img src="../resources/images/birds.jpg" class="d-block" alt="...">
+                  <div class="carousel-caption">
+                    <h5 class="label">Places</h5>
+                    <a href="" class="explore-btn">Explore <i class="bi bi-arrow-right"></i></a>
+                  </div>
+                </div>
+      
+                <div class="carousel-item carousel-item-custom">
+                  <img src="../resources/images/sugar.jpg" class="d-block" alt="...">
+                  <div class="carousel-caption">
+      
+                    <h5 class="label">Lakes</h5>
+                    <a href="" class="explore-btn">Explore <i class="bi bi-arrow-right"></i></a>
+                  </div>
+      
+                </div>
+      
+                <div class="carousel-item carousel-item-custom">
+                  <img src="../resources/images/victoria_falls_1.jpg" class="d-block " alt="...">
+                  <div class="carousel-caption">
+                    <h5 class="label">Waterfalls</h5>
+                    <a href="" class="explore-btn">Explore <i class="bi bi-arrow-right"></i></a>
+                  </div>
+                </div>
+      
+                <div class="carousel-item carousel-item-custom">
+                  <img src="../resources/images/victoria_falls_2.jpg" class="d-block " alt="...">
+                  <div class="carousel-caption">
+                    <h5 class="label">Rivers</h5>
+                    <a href="" class="explore-btn">Explore <i class="bi bi-arrow-right"></i></a>
+                  </div>
+                </div>
+      
+                <div class="carousel-item carousel-item-custom">
+                  <img src="../resources/images/hd_farming.jpg" class="d-block " alt="...">
+                  <div class="carousel-caption">
+                    <h5 class="label">Cheap Mode of Irrigation</h5>
+                    <a href="" class="explore-btn">Explore <i class="bi bi-arrow-right"></i></a>
+                  </div>
+                </div>
+      
+                <div class="carousel-item carousel-item-custom">
+                  <img src="../resources/images/farming.jpg" class="d-block " alt="...">
+                  <div class="carousel-caption">
+                    <h5 class="label">Sugar Production</h5>
+                    <a href="" class="explore-btn">Explore <i class="bi bi-arrow-right"></i></a>
+                  </div>
+                </div>
+      
+              </div>
+      
+            </div>
+      
+          </div>
+
+        <!-- Places to visit -->
+        <section class="places">
+          <div class="headerTitle">
+            <h3>  Places you Should     <span> visit! </span> </h3>
+
+
+          </div>
+          <!-- Stick Contact bar -->
+        <div class="contatcts">
+          <a href="#" class="contact"> <img src="../resources/images/logo-twitter-png-47449.png" alt=""></a>
+          <a href="#" class="contact"> <img src="../resources/images/logo-instagram-png-13547.png" alt=""></a>
+          <a href="#" class="contact"> <img src="../resources/images/Whatsapp-logo-on-transparent-background-PNG-(3).png" alt=""></a>
+          <a href="#" class="contact"> <img src="../resources/images/Popular-facebook-Logo-png.png" alt=""></a>
+
+        </div>
+
+
+
+        </section>
+
+        <!-- Lakes to visit -->
+        <section class="lakes">
+          <div class="headerTitle">
+            <span>  Lakes  </span>
+
+
+          </div>
+
+
+
+        </section>
+
+        <!-- Rivers to visit -->
+        <section class="rivers">
+          <div class="headerTitle">
+            <span>  Rivers  </span>
+
+
+          </div>
+
+        </section>
+
+        <!-- WaterFalls -->
+        <section class="waterfalls">
+          <div class="headerTitle">
+            <span>  WaterFalls  </span>
+
+
+          </div>
+          
+
+        </section>
+        
+
+
+
+
+    </main>
+
+    <footer>
+
+
+
+
+    </footer>
+
+
+    <!-- Link to home javascript file -->
+    <script >
+        $(document).ready(function(){
+            $(".btn-toggle").click(function(){
+               $(".menuList").toggle();
+
+            })
+        
+        
+        
+        
+        
+        })
+        
+
+
+
+
+
+    </script>
+</body>
+</html>
